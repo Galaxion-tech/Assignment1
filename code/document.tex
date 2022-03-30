@@ -1,10 +1,10 @@
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 
-\usepackage{mathptmx}
-\usepackage{amsmath,amssymb,amsthm}
-\usepackage[margin=0.6in]{geometry}
-\usepackage{nopageno}
-\usepackage{comment}
+%required pacakges
+\usepackage{mathptmx} %bold mathematical text
+\usepackage{amsmath,amssymb,amsthm} %math operation 
+\usepackage[margin=0.6in]{geometry} %set margin
+\usepackage{nopageno}   %remove page numbere
 
 \title{\textbf{ASSIGNMENT 1}}
 \author{\textbf{CS21BTECH11020}}
@@ -16,6 +16,7 @@
 \begin{document}
 
   \maketitle
+  %problem statement
   \textbf{PROBLEM 6b (2018) :} 
       If $ A= \begin{bmatrix}
         2 & 3 \\
@@ -31,7 +32,7 @@
       \end{bmatrix}$, find $ AC+B^2-10C$.
 
   \bigskip
-
+  %solution
   \textbf{SOLUTION : }We have,
     $$ A= \begin{bmatrix}
       2 & 3 \\
@@ -45,7 +46,8 @@
       1 & 0 \\
       -1 & 4
     \end{bmatrix}$$
-
+    
+    %identites
     Since we know the identities,
     \begin{equation}
        \begin{bmatrix}
@@ -80,6 +82,7 @@
       \end{bmatrix}
     \end{equation}
     
+    %calculating AC B^2 and 10C
     Using Identity $(1)$, we have
 
     $
@@ -194,7 +197,7 @@
       }
     \end{equation}
   
-    
+    % calculating AC+B^2-10C
     Using Identity (2) and values from (3), (4) and (5), We have
     $$
       AC+B^2-10C= 
@@ -220,6 +223,7 @@
       \end{bmatrix}
     $
     
+    %final result
     \begin{equation}
       \boxed{\mathbf{AC+B^2-10C} =
         \begin{bmatrix}
