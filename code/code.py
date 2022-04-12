@@ -14,7 +14,4 @@ const= -10
 result= A @ C + B @ B + const*MyIdentity @ C
 
 # printing the matrix
-for i in range(2):
-    for j in range(2):
-        print("%3d"%(result[i][j]),end=' ')
-    print("\n")
+print(result)
